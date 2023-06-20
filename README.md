@@ -1,5 +1,5 @@
 # ram-compiler
-simple simulation of a RAM (Random Access Machine)
+Semplice programma che simula una RAM (Random Access Machine), scritto in python.
 
 Le istruzioni di un programma per RAM agiscono su **operandi** ed **etichette**. 
 Nel modello che consideriamo ogni istruzione agisce al più su un operando o una etichetta.

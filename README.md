@@ -13,10 +13,10 @@ Ogni etichetta <et> ha la forma n, ed indica il numero intero n.
 
 ## Istruzioni della RAM - tipi
 - ### Istruzioni di trasferimento
-  * LOAD <op> : R[0] := <op>; CI := CI + 1;
-  * STORE <op> : R[<op>] := R[0]; CI := CI + 1; (<op> non può essere # n)
+  * LOAD \<op> : R\[0] := <op>; CI := CI + 1;
+  * STORE \<op> : R\[\<op>] := R\[0]; CI := CI + 1; (<op> non può essere # n)
 - ### Istruzioni aritmetiche
-  * ADD <op> : R[0] := R[0] + <op>; CI := CI + 1;
+  * ADD \<op> : R[0] := R[0] + <op>; CI := CI + 1;
   * SUB <op> : R[0] := R[0] --<op>; CI := CI + 1;
   * MULT <op> : R[0] := R[0] * <op>; CI := CI + 1;
   * DIV <op> : R[0] := R[0] / <op>; CI := CI + 1;

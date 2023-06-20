@@ -7,7 +7,7 @@ Nel modello che consideriamo ogni istruzione agisce al più su un operando o una
 Ogni operando *<op>* può avere una delle forme seguenti:
 - n : <op> indica l’intero memorizzato nel registro n
 - \#n : <op> indica il numero n
-- (n) : n)<op> indica l’intero memorizzato nel registro indirizzato dal registro n (non ancora implementato)
+- (n) : <op> indica l’intero memorizzato nel registro indirizzato dal registro n (non ancora implementato)
 
 Ogni etichetta <et> ha la forma n, ed indica il numero intero n.
 

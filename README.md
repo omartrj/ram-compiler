@@ -29,3 +29,7 @@ Ogni etichetta <et> ha la forma n, ed indica il numero intero n.
   * JZERO \<et> : if (R\[0] = 0) then CI := \<et> else CI := CI + 1;
 - ### Istruzioni di controllo
   * HALT : fine del programma; il calcolo si arresta;
+ 
+## Utilizzo
+Nella cartella in cui è presente sia il file `ram_compiler.py` che il file testuale del programma per RAM, scrivere il comando:
+`python3 ram_compiler.py <file.txt>`
